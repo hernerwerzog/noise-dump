@@ -1,30 +1,15 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const url = 'https://api.github.com/repos/hernerwerzog/noise-dump/data/gigs.json';
+    const url = 'https://api.github.com/repos/hernerwerzog/noise-dump/contents/data/gigs.json';
     try {
-        const response = await fetch(url);
+        const response = await fetch(url, {
+            headers: {
+                'Accept': 'application/vnd.github.v3.raw'
+            }
+        });
         if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
         }
-        const data = await response.json();
-        const content = atob(data.content); // Decode base64 content
-        const jsonData = JSON.parse(content);
-
-        // Example JSON structure
-        // [
-        //     {
-        //         "title": "Slomosa",
-        //         "subtitle": "MANCHESTER",
-        //         "date": "Feb 3, 2025",
-        //         "comments": 16,
-        //         "hearts": 32,
-        //         "twitter": 64,
-        //         "facebook": 128,
-        //         "videoUrl": "https://www.youtube.com/embed/TK-GClrSOGo?si=pahCizKiIxDQVgt4",
-        //         "description": "Stoner/Desert Rock<br>Rebellion, Manchester, UK",
-        //         "ticketsUrl": "https://www.fatsoma.com/e/51ta81gx/slomosa"
-        //     },
-        //     ...
-        // ]
+        const jsonData = await response.json();
 
         const contentDiv = document.getElementById('content');
 
