@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Slomosa",
+        "subtitle": "MANCHESTER",
+        "date": "Feb 3, 2025",
+        "comments": 16,
+        "hearts": 32,
+        "twitter": 64,
+        "facebook": 128,
+        "videoUrl": "https://www.youtube.com/embed/TK-GClrSOGo?si=pahCizKiIxDQVgt4",
+        "description": "Stoner/Desert Rock<br>Rebellion, Manchester, UK",
+        "ticketsUrl": "https://www.fatsoma.com/e/51ta81gx/slomosa"
+    },
+    {
+        "title": "Brian Jonestown Massacre",
+        "subtitle": "LEEDS",
+        "date": "Feb 8, 2025",
+        "comments": 16,
+        "hearts": 32,
+        "twitter": 64,
+        "facebook": 128,
+        "videoUrl": "https://www.youtube.com/embed/TK-GClrSOGo?si=pahCizKiIxDQVgt4",
+        "description": "Psych/Rock<br>Leeds Becketts, Leeds, UK",
+        "ticketsUrl": "https://www.crashrecords.co.uk/products/brian-jonestown-massacre-08-02-25-lbsu"
+    },
+    {
+        "title": "Chat Pile",
+        "subtitle": "LEEDS",
+        "date": "Apr 24, 2025",
+        "comments": 16,
+        "hearts": 32,
+        "twitter": 64,
+        "facebook": 128,
+        "videoUrl": "https://www.youtube.com/embed/TK-GClrSOGo?si=pahCizKiIxDQVgt4",
+        "description": "Noise/Sludge/Post-Punk<br>Leeds Irish Centre, Leeds, UK",
+        "ticketsUrl": "https://brudenellpresents.seetickets.com/event/chat-pile/leeds-irish-centre/3204350"
+    }
+]
