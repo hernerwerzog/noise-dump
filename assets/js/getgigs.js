@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const ulStats = document.createElement('ul');
             ulStats.className = 'stats';
             ulStats.innerHTML = `
-                <li><a href="#" class="<icon fa-calendar-days">${articleData.calendar}</a></li>
+                <li><a href="#" class="<icon fa-calendar">${articleData.calendar}</a></li>
                 <li><a href="#" class="icon fa-heart">${articleData.hearts}</a></li>
             `;
             info.appendChild(spanDate);
