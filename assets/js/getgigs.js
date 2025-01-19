@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const ulStats = document.createElement('ul');
             ulStats.className = 'stats';
             ulStats.innerHTML = `
-                <li><a href="#" class="icon fa-comment">${articleData.comments}</a></li>
+                <li><a href="#" class="<icon fa-calendar-days">${articleData.calendar}</a></li>
                 <li><a href="#" class="icon fa-heart">${articleData.hearts}</a></li>
                 <li><a href="#" class="icon brands fa-twitter">${articleData.twitter}</a></li>
                 <li><a href="#" class="icon brands fa-facebook-f">${articleData.facebook}</a></li>
