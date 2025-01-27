@@ -20,7 +20,8 @@
         "endTime": "23:30",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/uIncQCMTNQ4?si=0o-7cvrVCiuhvD0O",
-        "description": "Stoner/Desert Rock<br>Brudenell Social Club, Leeds, UK",
+        "description": "Stoner/Desert Rock",
+        "location": "Brudenell Social Club, Leeds, UK",
         "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
     },
     {
@@ -32,7 +33,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/uIncQCMTNQ4?si=0o-7cvrVCiuhvD0O",
-        "description": "Stoner/Desert Rock<br>Brudenell Social Club, Leeds, UK",
+        "description": "Stoner/Desert Rock",
+        "location": "Brudenell Social Club, Leeds, UK",
         "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
     },
     {
@@ -44,7 +46,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/OzjASrlNaaw?si=KKGq-umGzcOTZZof",
-        "description": "Psych/Rock<br>Leeds Becketts, Leeds, UK",
+        "description": "Psych/Rock",
+        "location": "Leeds Beckett, Leeds, UK",
         "ticketsUrl": "https://www.crashrecords.co.uk/products/brian-jonestown-massacre-08-02-25-lbsu"
     },
     {
@@ -56,7 +59,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/AaoX4YA06wo?si=2SXzMtb-23EMiEC2",
-        "description": "Doom/Sludge/Stoner<br>Leeds Becketts, Leeds, UK",
+        "description": "Doom/Sludge/Stoner",
+        "location": "The Lughole, Sheffield, UK",
         "ticketsUrl": "https://www.eventbrite.com/e/dopethrone-wallowing-moloch-blind-monarch-tickets-1114641746469"
     },
     {
@@ -68,7 +72,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/bXWmweUDEXQ?si=p1pYm5DsY4MidbmH",
-        "description": "Black Metal<br>Rebellion, Manchester, UK",
+        "description": "Black Metal",
+        "location": "Rebellion, Manchester, UK",
         "ticketsUrl": "https://www.fatsoma.com/e/1o4a9rxu/ultha-ante-inferno"
     },
     {
@@ -80,7 +85,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/h8YoyzosPDw?si=LtZmiTodFkmcnF54",
-        "description": "Noise/Sludge/Post-Punk<br>Leeds Irish Centre, Leeds, UK",
+        "description": "Noise/Sludge/Post-Punk",
+        "location": "Leeds Irish Centre, Leeds, UK",
         "ticketsUrl": "https://brudenellpresents.seetickets.com/event/chat-pile/leeds-irish-centre/3204350"
     },
     {
@@ -92,7 +98,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/BOtAuwwB7ow?si=aPCgM-fkrOCcXuWW",
-        "description": "Garage/Kraut/Noise Rock<br>Leeds Irish Centre, Leeds, UK",
+        "description": "Garage/Kraut/Noise Rock",
+        "location": "Leeds Irish Centre, Leeds, UK",
         "ticketsUrl": "https://brudenellpresents.seetickets.com/event/osees/leeds-irish-centre/3131784"
     },
     {
@@ -104,7 +111,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/oSDNIINcK08?si=vp8ywmfp_jrrwmyT",
-        "description": "Alt/Post/Nu Metal<br>Piece Hall, Halifax, UK",
+        "description": "Alt/Post/Nu Metal",
+        "location": "Piece Hall, Halifax, UK",
         "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006184CFC6224C"
     },
     {
@@ -116,7 +124,8 @@
         "endTime": "23:00",
         "calendar": 16,
         "videoUrl": "https://www.youtube.com/embed/9cN1XCpfWD4?si=XSucs7j-ZMoKQg2o",
-        "description": "Funk/Hipster Coffeeshop Music<br>Piece Hall, Halifax, UK",
+        "description": "Funk/Hipster Coffeeshop Music",
+        "location": "Piece Hall, Halifax, UK",
         "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006144B9819344"
     }
 ]
