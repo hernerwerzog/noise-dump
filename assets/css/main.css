@@ -1,0 +1,387 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: "Asap Condensed", serif; /* Set the font to Asap Condensed */
+    font-weight: 400; /* Default weight, can be adjusted */
+    height: 100vh;
+    overflow: hidden;
+    background-color: black; /* Set the body background to black */
+    color: #32CD32; /* Muted green text color */
+}
+
+nav {
+    width: 150px;
+    background-color: #FF69B4; /* Set the nav bar background to pink */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    height: 100vh; /* Make the nav bar run all the way down the left side */
+    position: fixed; /* Make the nav bar static */
+    top: 0;
+    left: 0;
+    border-right: 3px solid #FF69B4; /* Thin pink divider */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'CakeZombie';
+    src: url('../fonts/CakeZombie.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.company-header {
+    font-family: 'CakeZombie', serif; /* Use the CakeZombie font */
+    font-size: 6.5em; /* Double the size of h1 (3.25em * 2) */
+    color: #FF69B4; /* Muted pink/purple text color */
+    text-align: center; /* Center the header */
+    margin-bottom: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start */
+    flex: 1;
+    padding: 20px;
+    margin-left: 220px; /* Add margin to account for the fixed nav bar */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh; /* Ensure it takes the full height of the viewport */
+    box-sizing: border-box; /* Include padding in the height calculation */
+    background-color: black; /* Set the content background to black */
+    color: #32CD32; /* Muted green text color */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.date-box {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(1em * 9.5); /* Width of 4 letters in H1 */
+    min-height: calc(3.25em + 2.5em + 20px); /* Minimum height of H1 + H2 + extra space */
+    background-color: #32CD32; /* Muted green background color */
+    color: black; /* Black text color */
+    text-align: center;
+    padding: 10px 0; /* Add padding at the top and bottom */
+    font-size: 1em; /* Adjust font size as needed */
+    margin-right: 10px; /* Space between date box and headers */
+    box-sizing: border-box; /* Include padding in height calculation */
+    overflow: visible; /* Ensure content is not cut off */
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.date-box .date-part1 {
+    font-size: 3.25em; /* Same font size as h1 */
+    font-weight: 700; /* Same font weight as h1 */
+    line-height: 1; /* Adjust line height */
+    display: block; /* Ensure block display */
+}
+
+.date-box .date-part2 {
+    font-size: 2em; /* Same font size as h2 */
+    font-weight: 700; /* Same font weight as h2 */
+    line-height: 1; /* Adjust line height */
+    display: block; /* Ensure block display */
+}
+
+h1 {
+    color: #FF69B4; /* Muted pink/purple text color */
+    font-weight: 700;
+    font-size: 3.25em;
+    text-shadow: 0 0 0.2px #FF69B4, 0 0 0.5px #FF69B4, 0 0 1px #FF69B4; /* Glowing effect */
+    margin: 0; /* Remove margin */
+    width: 100%;
+    height: auto;
+}
+
+h1 + h2 {
+    margin-top: 0; /* Remove top margin */
+}
+
+h2 {
+    color: #32CD32; /* Muted green text color */
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow: 0 0 0.2px #32CD32, 0 0 0.5px #32CD32, 0 0 1px #32CD32; /* Glowing effect */
+    margin: 0; /* Remove margin */
+    margin-bottom: 20px; /* Add space between h2 and the video */
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+.video-container {
+    margin-bottom: 10px; /* Add margin-bottom to the video container */
+}
+
+.description {
+    margin-top: 0; /* Ensure no additional margin on top */
+    margin-bottom: 5px; /* Ensure margin-bottom is 10px */
+    font-size: 1.2em; /* Adjust font size if needed */
+    width: 100%;
+    height: auto;
+}
+
+.location {
+    margin-top: 0; /* Ensure no additional margin on top */
+    margin-bottom: 20px; /* Ensure margin-bottom is 10px */
+    font-size: 1.2em; /* Adjust font size if needed */
+    color: #32CD32; /* Muted green text color */
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icons */
+    margin-bottom: 100px;
+}
+
+.ticket-icon {
+    background-color: black; /* Set background to black */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    padding: 0; /* Remove padding */
+    display: inline-flex; /* Align icon properly */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    font-size: 1em; /* Ensure consistent font size */
+}
+
+.calendar-button {
+    background-color: black; /* Set background to black */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    padding: 0; /* Remove padding */
+    display: inline-flex; /* Align icon properly */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    font-size: 1em; /* Ensure consistent font size */
+}
+
+.calendar-button i {
+    color: #ff69b4; /* Set icon color to pink */
+}
+
+/* General styles for smaller screens */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        overflow: auto;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 3px solid #FF69B4;
+        max-height: 50vh; /* Set a maximum height */
+        overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.5em;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .company-header {
+        font-size: 4em;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .icon-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo {
+        margin-top: 20px; /* Add margin to create a gap */
+    }
+}
+
+/* Specific styles for iPhones */
+@media (max-width: 430px) {
+    nav {
+        width: auto;
+        height: 30px;
+        max-height: 30px; /* Set a maximum height */
+        overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 0px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.3em;
+    }
+
+    .company-header {
+        font-size: 3em;
+    }
+
+    .header-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .date-box {
+        width: 300px;
+        min-height: auto;
+        padding: 5px 0;
+    }
+
+    .date-box .date-part1 {
+        font-size: 2em;
+        width: auto;
+    }
+
+    .date-box .date-part2 {
+        font-size: 1.5em;
+        width: auto;
+    }
+
+    .header-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .description, .location {
+        font-size: 1em;
+        width: 430px;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .icon-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .logo {
+        margin-top: 20px; /* Add margin to create a gap */
+    }
+}
+
+/* Media query for iPad portrait mode */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: auto;
+        max-height: 30vh; /* Set a maximum height */
+        overflow-y: auto; /* Enable vertical scrolling if content overflows */
+        z-index: 1000; /* Ensure it is on top of other elements */
+        border-right: none;
+        border-bottom: 3px solid #FF69B4;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 3em;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding-top: 70px; /* Adjust padding to account for the fixed nav bar */
+    }
+
+    .logo {
+        margin-top: 100px; /* Add margin to create a gap */
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 480px;
+    }
+
+    .icon-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+}
