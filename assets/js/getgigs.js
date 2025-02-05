@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const config = {
                 name: articleData.title,
                 description: articleData.description,
+                location: articleData.location,
                 startDate: formatDate(articleData.date),
                 endDate: formatDate(articleData.endDate),
                 startTime: articleData.startTime,
