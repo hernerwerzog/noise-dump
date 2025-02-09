@@ -1,30 +1,5 @@
 [
     {
-        "title": "TEST BAND",
-        "subtitle": "LEEDS",
-        "date": "MAR 25, 2025",
-        "endDate": "MAR 25, 2025",
-        "startTime": "20:00",
-        "endTime": "23:30",
-        "videoUrl": "https://www.youtube.com/embed/uIncQCMTNQ4?si=0o-7cvrVCiuhvD0O",
-        "description": "Stoner/Desert Rock",
-        "location": "Brudenell Social Club, Leeds, UK",
-        "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
-    },
-    {
-        "title": "TEST BAND LONG NAME TO SEE WHAT BREAKS WHICH I EXPECT WILL BE A LOT",
-        "subtitle": "LEEDS",
-        "date": "SEP 25, 2025",
-        "endDate": "SEP 25, 2025",
-        "startTime": "20:00",
-        "endTime": "23:30",
-        "calendar": 16,
-        "videoUrl": "https://www.youtube.com/embed/uIncQCMTNQ4?si=0o-7cvrVCiuhvD0O",
-        "description": "Stoner/Desert Rock",
-        "location": "Brudenell Social Club, Leeds, UK",
-        "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
-    },
-    {
         "title": "BRANT BJORK TRIO",
         "subtitle": "LEEDS",
         "date": "FEB 3, 2025",
@@ -38,19 +13,6 @@
         "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
     },
     {
-        "title": "BRIAN JONESTOWN MASSACRE",
-        "subtitle": "LEEDS",
-        "date": "FEB 8, 2025",
-        "endDate": "FEB 8, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "calendar": 16,
-        "videoUrl": "https://www.youtube.com/embed/OzjASrlNaaw?si=KKGq-umGzcOTZZof",
-        "description": "Psych/Rock",
-        "location": "Leeds Beckett, Leeds, UK",
-        "ticketsUrl": "https://www.crashrecords.co.uk/products/brian-jonestown-massacre-08-02-25-lbsu"
-    },
-    {
         "title": "DOPETHRONE",
         "subtitle": "SHEFFIELD",
         "date": "MAR 14, 2025",
@@ -62,6 +24,19 @@
         "description": "Doom/Sludge/Stoner",
         "location": "The Lughole, Sheffield, UK",
         "ticketsUrl": "https://www.eventbrite.com/e/dopethrone-wallowing-moloch-blind-monarch-tickets-1114641746469"
+    },
+    {
+        "title": "PIGS x7",
+        "subtitle": "LEEDS",
+        "date": "APR 13, 2025",
+        "endDate": "APR 13, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "calendar": 16,
+        "videoUrl": "https://www.youtube.com/embed/SHny8Kv02-o?si=bMShWr4f9hbYKKTp",
+        "description": "Stoner/Noise",
+        "location": "Brudenell Social Club, Leeds, UK",
+        "ticketsUrl": "http://www.brudenellsocialclub.co.uk/whats-on/pigs-pigs-pigs-pigs-pigs-pigs-pigs2/“
     },
     {
         "title": "ULTHA",
