@@ -96,18 +96,6 @@
         "ticketsUrl": "https://brudenellpresents.seetickets.com/event/chat-pile/leeds-irish-centre/3204350"
     },
     {
-        "title": "OSEES",
-        "subtitle": "LEEDS",
-        "date": "JUN 20, 2025",
-        "endDate": "JUN 20, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/BOtAuwwB7ow?si=aPCgM-fkrOCcXuWW",
-        "description": "Garage/Kraut/Noise Rock",
-        "location": "Leeds Irish Centre, Leeds, UK",
-        "ticketsUrl": "https://brudenellpresents.seetickets.com/event/osees/leeds-irish-centre/3131784"
-    },
-    {
         "title": "EARTH",
         "subtitle": "LEEDS",
         "date": "MAY 19, 2025",
@@ -130,6 +118,18 @@
         "description": "Doom",
         "location": "Northern Quarter, Huddersfield, UK",
         "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
+    },
+    {
+        "title": "OSEES",
+        "subtitle": "LEEDS",
+        "date": "JUN 20, 2025",
+        "endDate": "JUN 20, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/BOtAuwwB7ow?si=aPCgM-fkrOCcXuWW",
+        "description": "Garage/Kraut/Noise Rock",
+        "location": "Leeds Irish Centre, Leeds, UK",
+        "ticketsUrl": "https://brudenellpresents.seetickets.com/event/osees/leeds-irish-centre/3131784"
     },
     {
         "title": "DEFTONES",
