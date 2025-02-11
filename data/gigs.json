@@ -108,18 +108,6 @@
         "ticketsUrl": "https://brudenellpresents.seetickets.com/event/osees/leeds-irish-centre/3131784"
     },
     {
-        "title": "DEFTONES",
-        "subtitle": "HALIFAX",
-        "date": "JUN 24, 2025",
-        "endDate": "JUN 24, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/oSDNIINcK08?si=vp8ywmfp_jrrwmyT",
-        "description": "Alt/Post/Nu Metal",
-        "location": "Piece Hall, Halifax, UK",
-        "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006184CFC6224C"
-    },
-    {
         "title": "EARTH",
         "subtitle": "LEEDS",
         "date": "MAY 19, 2025",
@@ -142,6 +130,18 @@
         "description": "Doom",
         "location": "Northern Quarter, Huddersfield, UK",
         "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
+    },
+    {
+        "title": "DEFTONES",
+        "subtitle": "HALIFAX",
+        "date": "JUN 24, 2025",
+        "endDate": "JUN 24, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/oSDNIINcK08?si=vp8ywmfp_jrrwmyT",
+        "description": "Alt/Post/Nu Metal",
+        "location": "Piece Hall, Halifax, UK",
+        "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006184CFC6224C"
     },
     {
         "title": "GEL",
