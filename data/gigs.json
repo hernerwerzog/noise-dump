@@ -1,29 +1,5 @@
 [
     {
-        "title": "TEST BAND",
-        "subtitle": "LEEDS",
-        "date": "MAR 25, 2025",
-        "endDate": "MAR 25, 2025",
-        "startTime": "20:00",
-        "endTime": "23:30",
-        "videoUrl": "https://www.youtube.com/embed/uIncQCMTNQ4?si=0o-7cvrVCiuhvD0O",
-        "description": "Stoner/Desert Rock",
-        "location": "Brudenell Social Club, Leeds, UK",
-        "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
-    },
-    {
-        "title": "TEST BAND LONG NAME TO SEE WHAT BREAKS WHICH I EXPECT WILL BE A LOT",
-        "subtitle": "LEEDS",
-        "date": "SEP 25, 2025",
-        "endDate": "SEP 25, 2025",
-        "startTime": "20:00",
-        "endTime": "23:30",
-        "videoUrl": "https://www.youtube.com/embed/uIncQCMTNQ4?si=0o-7cvrVCiuhvD0O",
-        "description": "Stoner/Desert Rock",
-        "location": "Brudenell Social Club, Leeds, UK",
-        "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
-    },
-    {
         "title": "BRANT BJORK TRIO",
         "subtitle": "LEEDS",
         "date": "FEB 3, 2025",
@@ -36,18 +12,6 @@
         "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/brant-bjork-trio/brudenell-social-club/3105639"
     },
     {
-        "title": "BRIAN JONESTOWN MASSACRE",
-        "subtitle": "LEEDS",
-        "date": "FEB 8, 2025",
-        "endDate": "FEB 8, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/OzjASrlNaaw?si=KKGq-umGzcOTZZof",
-        "description": "Psych/Rock",
-        "location": "Leeds Beckett, Leeds, UK",
-        "ticketsUrl": "https://www.crashrecords.co.uk/products/brian-jonestown-massacre-08-02-25-lbsu"
-    },
-    {
         "title": "DOPETHRONE",
         "subtitle": "SHEFFIELD",
         "date": "MAR 14, 2025",
@@ -58,6 +22,54 @@
         "description": "Doom/Sludge/Stoner",
         "location": "The Lughole, Sheffield, UK",
         "ticketsUrl": "https://www.eventbrite.com/e/dopethrone-wallowing-moloch-blind-monarch-tickets-1114641746469"
+    },
+    {
+        "title": "HENGE",
+        "subtitle": "HUDDERSFIELD",
+        "date": "MAR 20, 2025",
+        "endDate": "MAR 20, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "ttps://www.youtube.com/embed/R--JvTp7UD0?si=ze3ztfhkoO6YWjxs",
+        "description": "Electronica/Space Rock",
+        "location": "Parish, Huddersfield, UK",
+        "ticketsUrl": "https://parishpub.co.uk/gigs/860/"
+    },
+    {
+        "title": "DEATH METAL ALL DAYER - FOETAL JUICE/SCORDATUR/WOLFBASTARD",
+        "subtitle": "LEEDS",
+        "date": "MAR 29, 2025",
+        "endDate": "MAR 29, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/x4T-LHtMh6Y?si=g2dl4THKfC6GdAx7",
+        "description": "Death",
+        "location": "BOOM, Leeds, UK",
+        "ticketsUrl": "https://www.ticketsource.co.uk/boomfinalshows/death-all-dayer-pt-2-foetal-juice-scordatura-wolfbastard-and-more/e-pqlkbm"
+    },
+    {
+        "title": "SKUNK ANANSIE",
+        "subtitle": "LEEDS",
+        "date": "APR 12, 2025",
+        "endDate": "APR 12, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/tEpjiSVXzDo?si=E-4aaQAy9a_dtAl-",
+        "description": "Rock",
+        "location": "O2 Academy, Leeds, UK",
+        "ticketsUrl": "https://www.seetickets.com/event/skunk-anansie/o2-academy-leeds/3198586"
+    },
+    {
+        "title": "PIGS x7",
+        "subtitle": "LEEDS",
+        "date": "APR 13, 2025",
+        "endDate": "APR 13, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/VG9Y14yOc-4?si=dA9cd6N2lsAQvnTX",
+        "description": "Stoner/Noise/Psych",
+        "location": "Brudenell Social Club, Leeds, UK",
+        "ticketsUrl": "http://www.brudenellsocialclub.co.uk/whats-on/pigs-pigs-pigs-pigs-pigs-pigs-pigs2/"
     },
     {
         "title": "ULTHA",
@@ -106,6 +118,42 @@
         "description": "Alt/Post/Nu Metal",
         "location": "Piece Hall, Halifax, UK",
         "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006184CFC6224C"
+    },
+    {
+        "title": "EARTH",
+        "subtitle": "LEEDS",
+        "date": "MAY 19, 2025",
+        "endDate": "MAY 19, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/cHKpeUL6Iss?si=L-W0Ea6NgphC016G",
+        "description": "Drone/Doom/Post-Rock",
+        "location": "Brudenell Social Club, Leeds, UK",
+        "ticketsUrl": "http://www.brudenellsocialclub.co.uk/whats-on/earth3/"
+    },
+    {
+        "title": "FAETOOTH",
+        "subtitle": "HUDDERSFIELD",
+        "date": "JUN 14, 2025",
+        "endDate": "JUN 14, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/FJQj6WNYMfA?si=9hCZ5bDSUBMe-5N7",
+        "description": "Doom",
+        "location": "Northern Quarter, Huddersfield, UK",
+        "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
+    },
+    {
+        "title": "GEL",
+        "subtitle": "LEEDS",
+        "date": "JUL 16, 2025",
+        "endDate": "JUL 16, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/F_-bn5Ws2Tw?si=-ETkBsfWDIV2TlBu",
+        "description": "Hardcore Punk",
+        "location": "Leeds Irish Centre, Leeds, UK",
+        "ticketsUrl": "http://www.brudenellsocialclub.co.uk/whats-on/gel-anxious/"
     },
     {
         "title": "KHRUANGBIN",
