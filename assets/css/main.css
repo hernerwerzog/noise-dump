@@ -173,6 +173,7 @@ h2 {
     cursor: pointer; /* Change cursor to pointer */
     padding: 0; /* Remove padding */
     display: inline-flex; /* Align icon properly */
+    margin-top: 2.5px; /* Add margin to the top */
     align-items: center; /* Center icon vertically */
     justify-content: center; /* Center icon horizontally */
     font-size: 1em; /* Ensure consistent font size */
