@@ -176,6 +176,7 @@ h2 {
     align-items: center; /* Center icon vertically */
     justify-content: center; /* Center icon horizontally */
     font-size: 1em; /* Ensure consistent font size */
+    text-decoration: none; /* Removes hyperlink decoration */
 }
 
 .calendar-button {
