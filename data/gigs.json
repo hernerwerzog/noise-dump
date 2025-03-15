@@ -120,6 +120,18 @@
         "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006184CFC6224C"
     },
     {
+        "title": "PENTAGRAM",
+        "subtitle": "LEEDS",
+        "date": "JUL 4, 2025",
+        "endDate": "JUL 4, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/3s3WraWp4Tc?si=5OFJUunY6y-aVerV",
+        "description": "Doom",
+        "location": "Brudenell Social Club, Leeds, UK",
+        "ticketsUrl": "https://www.brudenellsocialclub.co.uk/whats-on/pentagram/"
+    },
+    {
         "title": "GEL",
         "subtitle": "LEEDS",
         "date": "JUL 16, 2025",
