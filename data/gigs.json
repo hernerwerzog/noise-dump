@@ -130,5 +130,17 @@
         "description": "Funk/Hipster Coffeeshop Music",
         "location": "Piece Hall, Halifax, UK",
         "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006144B9819344"
+    },
+    {
+        "title": "ALL THEM WITCHES / ELDER",
+        "subtitle": "LEEDS",
+        "date": "OCT 8, 2025",
+        "endDate": "OCT 8, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/SWo-ikcEtqw?si=nIHGkFZ9t7QyU8rF",
+        "description": "Rock/Pysch/Folk/Stoner",
+        "location": "Leeds Beckett Student Union, Leeds, UK",
+        "ticketsUrl": "https://www.seetickets.com/event/all-them-witches/leeds-beckett-students-union/3388356"
     }
 ]
