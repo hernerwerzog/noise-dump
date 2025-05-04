@@ -70,5 +70,17 @@
         "description": "Black Metal",
         "location": "Rebellion, Manchester, UK",
         "ticketsUrl": "https://www.fatsoma.com/e/1o4a9rxu/ultha-ante-inferno"
+    },
+    {
+        "title": "CHAT PILE",
+        "subtitle": "LEEDS",
+        "date": "APR 24, 2025",
+        "endDate": "APR 24, 2025",
+        "startTime": "19:00",
+        "endTime": "23:00",
+        "videoUrl": "https://www.youtube.com/embed/h8YoyzosPDw?si=LtZmiTodFkmcnF54",
+        "description": "Noise/Sludge/Post-Punk",
+        "location": "Leeds Irish Centre, Leeds, UK",
+        "ticketsUrl": "https://brudenellpresents.seetickets.com/event/chat-pile/leeds-irish-centre/3204350"
     }
 ]
