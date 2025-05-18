@@ -1,8 +1,8 @@
 name: Automated Gig Updater
 run-name: ${{ github.actor }} is updating gigs 🚀
 on:
-  schedule:
-    - cron: '36 14 * * *'
+  #schedule:
+    #- cron: '36 14 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 permissions:
