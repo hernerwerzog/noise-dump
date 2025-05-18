@@ -1,20 +1,36 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: Automated Gig Updater
+run-name: ${{ github.actor }} is updating gigs 🚀
 on:
   schedule:
-    - cron: '3,7 14 * * *'
+    - cron: '17,22 14 * * *'
+  workflow_dispatch:  # Allows manual triggering
+
 jobs:
-  Explore-GitHub-Actions:
+  Process-Gigs:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
+        with:
+          ref: automation-testing  # Check out the automation-testing branch
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Filter gigs.json
         run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+          current_date=$(date -u +"%Y-%m-%d")
+          jq --arg current_date "$current_date" '
+            map(select((.endDate | strptime("%b %d, %Y") | mktime) >= ($current_date | strptime("%Y-%m-%d") | mktime)))
+          ' data/gigs.json > data/gigs_updated.json
+
+      - name: Replace gigs.json with updated file
+        run: mv data/gigs_updated.json data/gigs.json
+
+      - name: Commit and push changes to automation-testing branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/gigs.json
+          git commit -m "Remove expired gigs from gigs.json"
+          git push origin automation-testing
