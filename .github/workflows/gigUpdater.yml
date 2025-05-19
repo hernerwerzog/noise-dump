@@ -22,6 +22,7 @@ jobs:
 
       - name: Filter gigs and update archive
         run: |
+          set -e
           current_date=$(date -u +"%Y-%m-%d")
           # Filter valid gigs
           jq --arg current_date "$current_date" '
@@ -33,12 +34,16 @@ jobs:
             map(select((.endDate | strptime("%b %d, %Y") | mktime) < ($current_date | strptime("%Y-%m-%d") | mktime)))
           ' data/gigs.json > data/expired_gigs.json
 
-          # If there are expired gigs, append them to archive.json
-          if [ -s data/expired_gigs.json ]; then
-            # Merge expired gigs into archive.json
-            jq -s '.[0] + .[1]' data/archive.json data/expired_gigs.json > data/archive_updated.json
-            mv data/archive_updated.json data/archive.json
+          if [ ! -s data/expired_gigs.json ]; then
+            echo "No gigs to archive"
+            # Overwrite gigs.json just in case, but don't fail
+            mv data/gigs_updated.json data/gigs.json
+            exit 0
           fi
+
+          # Merge expired gigs into archive.json
+          jq -s '.[0] + .[1]' data/archive.json data/expired_gigs.json > data/archive_updated.json
+          mv data/archive_updated.json data/archive.json
 
           # Replace gigs.json with updated file
           mv data/gigs_updated.json data/gigs.json
