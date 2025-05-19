@@ -39,8 +39,6 @@ jobs:
             # Overwrite gigs.json just in case, but don't fail
             mv data/gigs_updated.json data/gigs.json
             exit 0
-            else
-            echo "::notice::Found expired gigs to archive"
           fi
 
           # Merge expired gigs into archive.json
