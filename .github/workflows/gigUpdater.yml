@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is updating gigs 🚀
 on:
   schedule:
     - cron: '7 2 * * *'
-  workflow_dispatch:
+  workflow_dispatch:  # Allows manual triggering
 
 permissions:
   contents: write
@@ -20,30 +20,28 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Check for expired gigs
-        id: check_expired
+      - name: Filter gigs and update archive
         run: |
+          set -e
           current_date=$(date -u +"%Y-%m-%d")
+          # Filter valid gigs
+          jq --arg current_date "$current_date" '
+            map(select((.endDate | strptime("%b %d, %Y") | mktime) >= ($current_date | strptime("%Y-%m-%d") | mktime)))
+          ' data/gigs.json > data/gigs_updated.json
+
+          # Get expired gigs
           jq --arg current_date "$current_date" '
             map(select((.endDate | strptime("%b %d, %Y") | mktime) < ($current_date | strptime("%Y-%m-%d") | mktime)))
           ' data/gigs.json > data/expired_gigs.json
 
           if [ ! -s data/expired_gigs.json ]; then
             echo "::notice::No gigs to archive"
-            echo "found_expired=false" >> $GITHUB_OUTPUT
-          else
+            # Overwrite gigs.json just in case, but don't fail
+            mv data/gigs_updated.json data/gigs.json
+            exit 0
+            else
             echo "::notice::Found expired gigs to archive"
-            echo "found_expired=true" >> $GITHUB_OUTPUT
           fi
-
-      - name: Filter gigs and update archive
-        if: steps.check_expired.outputs.found_expired == 'true'
-        run: |
-          current_date=$(date -u +"%Y-%m-%d")
-          # Filter valid gigs
-          jq --arg current_date "$current_date" '
-            map(select((.endDate | strptime("%b %d, %Y") | mktime) >= ($current_date | strptime("%Y-%m-%d") | mktime)))
-          ' data/gigs.json > data/gigs_updated.json
 
           # Merge expired gigs into archive.json
           jq -s '.[0] + .[1]' data/archive.json data/expired_gigs.json > data/archive_updated.json
@@ -52,10 +50,7 @@ jobs:
           # Replace gigs.json with updated file
           mv data/gigs_updated.json data/gigs.json
 
-          echo "::notice::✅ Archived expired gigs and updated gigs.json."
-
       - name: Commit and push changes to main branch
-        if: steps.check_expired.outputs.found_expired == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
