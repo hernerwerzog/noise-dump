@@ -40,16 +40,12 @@ jobs:
         if: steps.check_expired.outputs.found_expired == 'true'
         run: |
           current_date=$(date -u +"%Y-%m-%d")
-          # Filter valid gigs
           jq --arg current_date "$current_date" '
             map(select((.endDate | strptime("%b %d, %Y") | mktime) >= ($current_date | strptime("%Y-%m-%d") | mktime)))
           ' data/gigs.json > data/gigs_updated.json
 
-          # Merge expired gigs into archive.json
           jq -s '.[0] + .[1]' data/archive.json data/expired_gigs.json > data/archive_updated.json
           mv data/archive_updated.json data/archive.json
-
-          # Replace gigs.json with updated file
           mv data/gigs_updated.json data/gigs.json
 
           echo "::notice::✅ Archived expired gigs and updated gigs.json."
@@ -60,5 +56,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/gigs.json data/archive.json
-          git commit -m "Remove expired gigs from gigs.json and archive them"
+          git commit -m "Remove expired gigs from gigs.json and archive them" || echo "No changes to commit"
           git push origin main
