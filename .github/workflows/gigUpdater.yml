@@ -28,7 +28,8 @@ jobs:
             map(select((.endDate | strptime("%b %d, %Y") | mktime) < ($current_date | strptime("%Y-%m-%d") | mktime)))
           ' data/gigs.json > data/expired_gigs.json
 
-          if [ ! -s data/expired_gigs.json ]; then
+          expired_count=$(jq 'length' data/expired_gigs.json)
+          if [ "$expired_count" -eq 0 ]; then
             echo "::notice::No gigs to archive"
             echo "found_expired=false" >> $GITHUB_OUTPUT
           else
