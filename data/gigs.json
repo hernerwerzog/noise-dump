@@ -1,74 +1,74 @@
 [
-    {
-        "title": "EARTH",
-        "subtitle": "LEEDS",
-        "date": "MAY 19, 2025",
-        "endDate": "MAY 19, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/cHKpeUL6Iss?si=L-W0Ea6NgphC016G",
-        "description": "Drone/Doom/Post-Rock",
-        "location": "Brudenell Social Club, Leeds, UK",
-        "ticketsUrl": "http://www.brudenellsocialclub.co.uk/whats-on/earth3/"
-    },
-    {
-        "title": "FAETOOTH",
-        "subtitle": "HUDDERSFIELD",
-        "date": "JUN 14, 2025",
-        "endDate": "JUN 14, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/FJQj6WNYMfA?si=9hCZ5bDSUBMe-5N7",
-        "description": "Doom",
-        "location": "Northern Quarter, Huddersfield, UK",
-        "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
-    },
-    {
-        "title": "DEFTONES",
-        "subtitle": "HALIFAX",
-        "date": "JUN 24, 2025",
-        "endDate": "JUN 24, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/oSDNIINcK08?si=vp8ywmfp_jrrwmyT",
-        "description": "Alt/Post/Nu Metal",
-        "location": "Piece Hall, Halifax, UK",
-        "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006184CFC6224C"
-    },
-    {
-        "title": "PENTAGRAM",
-        "subtitle": "LEEDS",
-        "date": "JUL 4, 2025",
-        "endDate": "JUL 4, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/3s3WraWp4Tc?si=5OFJUunY6y-aVerV",
-        "description": "Doom",
-        "location": "Brudenell Social Club, Leeds, UK",
-        "ticketsUrl": "https://www.brudenellsocialclub.co.uk/whats-on/pentagram/"
-    },
-    {
-        "title": "KHRUANGBIN",
-        "subtitle": "HALIFAX",
-        "date": "AUG 20, 2025",
-        "endDate": "AUG 20, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/9cN1XCpfWD4?si=XSucs7j-ZMoKQg2o",
-        "description": "Funk/Hipster Coffeeshop Music",
-        "location": "Piece Hall, Halifax, UK",
-        "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006144B9819344"
-    },
-    {
-        "title": "ALL THEM WITCHES / ELDER",
-        "subtitle": "LEEDS",
-        "date": "OCT 8, 2025",
-        "endDate": "OCT 8, 2025",
-        "startTime": "19:00",
-        "endTime": "23:00",
-        "videoUrl": "https://www.youtube.com/embed/SWo-ikcEtqw?si=nIHGkFZ9t7QyU8rF",
-        "description": "Rock/Pysch/Folk/Stoner",
-        "location": "Leeds Beckett Student Union, Leeds, UK",
-        "ticketsUrl": "https://www.seetickets.com/event/all-them-witches/leeds-beckett-students-union/3388356"
-    }
+  {
+    "title": "EARTH",
+    "subtitle": "LEEDS",
+    "date": "MAY 19, 2025",
+    "endDate": "MAY 19, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/cHKpeUL6Iss?si=L-W0Ea6NgphC016G",
+    "description": "Drone/Doom/Post-Rock",
+    "location": "Brudenell Social Club, Leeds, UK",
+    "ticketsUrl": "http://www.brudenellsocialclub.co.uk/whats-on/earth3/"
+  },
+  {
+    "title": "FAETOOTH",
+    "subtitle": "HUDDERSFIELD",
+    "date": "JUN 14, 2025",
+    "endDate": "JUN 14, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/FJQj6WNYMfA?si=9hCZ5bDSUBMe-5N7",
+    "description": "Doom",
+    "location": "Northern Quarter, Huddersfield, UK",
+    "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
+  },
+  {
+    "title": "DEFTONES",
+    "subtitle": "HALIFAX",
+    "date": "JUN 24, 2025",
+    "endDate": "JUN 24, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/oSDNIINcK08?si=vp8ywmfp_jrrwmyT",
+    "description": "Alt/Post/Nu Metal",
+    "location": "Piece Hall, Halifax, UK",
+    "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006184CFC6224C"
+  },
+  {
+    "title": "PENTAGRAM",
+    "subtitle": "LEEDS",
+    "date": "JUL 4, 2025",
+    "endDate": "JUL 4, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/3s3WraWp4Tc?si=5OFJUunY6y-aVerV",
+    "description": "Doom",
+    "location": "Brudenell Social Club, Leeds, UK",
+    "ticketsUrl": "https://www.brudenellsocialclub.co.uk/whats-on/pentagram/"
+  },
+  {
+    "title": "KHRUANGBIN",
+    "subtitle": "HALIFAX",
+    "date": "AUG 20, 2025",
+    "endDate": "AUG 20, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/9cN1XCpfWD4?si=XSucs7j-ZMoKQg2o",
+    "description": "Funk/Hipster Coffeeshop Music",
+    "location": "Piece Hall, Halifax, UK",
+    "ticketsUrl": "https://www.ticketmaster.co.uk/event/35006144B9819344"
+  },
+  {
+    "title": "ALL THEM WITCHES / ELDER",
+    "subtitle": "LEEDS",
+    "date": "OCT 8, 2025",
+    "endDate": "OCT 8, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/SWo-ikcEtqw?si=nIHGkFZ9t7QyU8rF",
+    "description": "Rock/Pysch/Folk/Stoner",
+    "location": "Leeds Beckett Student Union, Leeds, UK",
+    "ticketsUrl": "https://www.seetickets.com/event/all-them-witches/leeds-beckett-students-union/3388356"
+  }
 ]
