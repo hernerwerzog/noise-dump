@@ -20,20 +20,33 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Filter gigs.json
+      - name: Filter gigs and update archive
         run: |
           current_date=$(date -u +"%Y-%m-%d")
+          # Filter valid gigs
           jq --arg current_date "$current_date" '
             map(select((.endDate | strptime("%b %d, %Y") | mktime) >= ($current_date | strptime("%Y-%m-%d") | mktime)))
           ' data/gigs.json > data/gigs_updated.json
 
-      - name: Replace gigs.json with updated file
-        run: mv data/gigs_updated.json data/gigs.json
+          # Get expired gigs
+          jq --arg current_date "$current_date" '
+            map(select((.endDate | strptime("%b %d, %Y") | mktime) < ($current_date | strptime("%Y-%m-%d") | mktime)))
+          ' data/gigs.json > data/expired_gigs.json
+
+          # If there are expired gigs, append them to archive.json
+          if [ -s data/expired_gigs.json ]; then
+            # Merge expired gigs into archive.json
+            jq -s '.[0] + .[1]' data/archive.json data/expired_gigs.json > data/archive_updated.json
+            mv data/archive_updated.json data/archive.json
+          fi
+
+          # Replace gigs.json with updated file
+          mv data/gigs_updated.json data/gigs.json
 
       - name: Commit and push changes to automation-testing branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/gigs.json
-          git commit -m "Remove expired gigs from gigs.json"
+          git add data/gigs.json data/archive.json
+          git commit -m "Remove expired gigs from gigs.json and archive them"
           git push origin automation-testing
