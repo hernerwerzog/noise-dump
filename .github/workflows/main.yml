@@ -1,8 +1,8 @@
 name: Automated Gig Updater
 run-name: ${{ github.actor }} is updating gigs 🚀
 on:
-  #schedule:
-    #- cron: '36 14 * * *'
+  schedule:
+    - cron: '7 2 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 permissions:
@@ -15,7 +15,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
         with:
-          ref: automation-testing  # Check out the automation-testing branch
+          ref: main
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
@@ -43,10 +43,10 @@ jobs:
           # Replace gigs.json with updated file
           mv data/gigs_updated.json data/gigs.json
 
-      - name: Commit and push changes to automation-testing branch
+      - name: Commit and push changes to main branch
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/gigs.json data/archive.json
           git commit -m "Remove expired gigs from gigs.json and archive them"
-          git push origin automation-testing
+          git push origin main
