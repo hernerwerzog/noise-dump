@@ -12,6 +12,18 @@
     "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
   },
   {
+    "title": "W.I.T.C.H",
+    "subtitle": "MANCHESTER",
+    "date": "JUN 19, 2025",
+    "endDate": "JUN 19, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/Ze4DVfHxS4o?si=AjUiEm-8O0Q6jnGx",
+    "description": "Zamrock",
+    "location": "Deaf Institute, Manchester, UK",
+    "ticketsUrl": "https://dice.fm/event/avdao7-witch-manchester-19th-jun-the-deaf-institute-manchester-tickets?lng=en"
+  },
+  {
     "title": "DEFTONES",
     "subtitle": "HALIFAX",
     "date": "JUN 24, 2025",
@@ -58,6 +70,18 @@
     "description": "Ecstatic Black Metal",
     "location": "Brudenell Social Club, Leeds, UK",
     "ticketsUrl": "https://brudenellpresents.seetickets.com/event/agriculture/brudenell-social-club/3427378"
+  },
+  {
+    "title": "TERRY REID",
+    "subtitle": "HEBDEN BRIDGE",
+    "date": "SEP 21, 2025",
+    "endDate": "SEP 21, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/2udJLSmU3dU?si=au1nQSjvtFFNM5vA",
+    "description": "Rock",
+    "location": "The Trades Club, Hebden Bridge, UK",
+    "ticketsUrl": "https://thetradesclub.com/events/terryr"
   },
   {
     "title": "ALL THEM WITCHES / ELDER",
