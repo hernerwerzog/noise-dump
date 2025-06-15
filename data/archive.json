@@ -94,5 +94,17 @@
     "description": "Drone/Doom/Post-Rock",
     "location": "Brudenell Social Club, Leeds, UK",
     "ticketsUrl": "http://www.brudenellsocialclub.co.uk/whats-on/earth3/"
+  },
+  {
+    "title": "FAETOOTH",
+    "subtitle": "HUDDERSFIELD",
+    "date": "JUN 14, 2025",
+    "endDate": "JUN 14, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/FJQj6WNYMfA?si=9hCZ5bDSUBMe-5N7",
+    "description": "Doom",
+    "location": "Northern Quarter, Huddersfield, UK",
+    "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
   }
 ]
