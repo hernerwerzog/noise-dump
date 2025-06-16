@@ -106,5 +106,17 @@
     "description": "Doom",
     "location": "Northern Quarter, Huddersfield, UK",
     "ticketsUrl": "https://www.tickettailor.com/events/northernquarter/1552413?"
+  },
+  {
+    "title": "OUTBREAK FEST",
+    "subtitle": "MANCHESTER",
+    "date": "JUN 15, 2025",
+    "endDate": "JUN 15, 2025",
+    "startTime": "11:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/3WHm6tfvKlk?si=WU8utaWt_Xrvp6ud",
+    "description": "Deafheaven/Denzel Curry",
+    "location": "Bowlers Exhibition Centre, Manchester, UK",
+    "ticketsUrl": "https://outbreak.seetickets.com/event/outbreak-fest-manchester/bec-arena/3245773"
   }
 ]
