@@ -1,17 +1,5 @@
 [
   {
-    "title": "PENTAGRAM",
-    "subtitle": "LEEDS",
-    "date": "JUL 04, 2025",
-    "endDate": "JUL 04, 2025",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "videoUrl": "https://www.youtube.com/embed/3s3WraWp4Tc?si=5OFJUunY6y-aVerV",
-    "description": "Doom",
-    "location": "Brudenell Social Club, Leeds, UK",
-    "ticketsUrl": "https://www.brudenellsocialclub.co.uk/whats-on/pentagram/"
-  },
-  {
     "title": "KHRUANGBIN",
     "subtitle": "HALIFAX",
     "date": "AUG 24, 2025",
@@ -34,18 +22,6 @@
     "description": "Ecstatic Black Metal",
     "location": "Brudenell Social Club, Leeds, UK",
     "ticketsUrl": "https://brudenellpresents.seetickets.com/event/agriculture/brudenell-social-club/3427378"
-  },
-  {
-    "title": "TERRY REID",
-    "subtitle": "HEBDEN BRIDGE",
-    "date": "SEP 21, 2025",
-    "endDate": "SEP 21, 2025",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "videoUrl": "https://www.youtube.com/embed/2udJLSmU3dU?si=au1nQSjvtFFNM5vA",
-    "description": "Rock",
-    "location": "The Trades Club, Hebden Bridge, UK",
-    "ticketsUrl": "https://thetradesclub.com/events/terryr"
   },
   {
     "title": "CLIPPING",
@@ -82,5 +58,17 @@
     "description": "Deafheaven/Portrayal of Guilt/Crippling Alcoholism",
     "location": "Bowlers Exhibition Centre, Manchester, UK",
     "ticketsUrl": "https://www.damnationfestival.co.uk/#tickets"
+  },
+  {
+    "title": "PENTAGRAM",
+    "subtitle": "LEEDS",
+    "date": "FEB 06, 2026",
+    "endDate": "FEB 06, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/3s3WraWp4Tc?si=5OFJUunY6y-aVerV",
+    "description": "Doom",
+    "location": "Brudenell Social Club, Leeds, UK",
+    "ticketsUrl": "https://www.brudenellsocialclub.co.uk/whats-on/pentagram/"
   }
 ]
