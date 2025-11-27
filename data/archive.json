@@ -214,5 +214,17 @@
     "description": "Deafheaven/Portrayal of Guilt/Crippling Alcoholism",
     "location": "Bowlers Exhibition Centre, Manchester, UK",
     "ticketsUrl": "https://www.damnationfestival.co.uk/#tickets"
+  },
+  {
+    "title": "CONAN",
+    "subtitle": "MANCHESTER",
+    "date": "NOV 26, 2025",
+    "endDate": "NOV 26, 2025",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/2bXTzQtAnEI?si=XstR_IcEfnfpx6sz",
+    "description": "Caveman Battle Doom",
+    "location": "Rebellion, Manchester, UK",
+    "ticketsUrl": "https://www.rebellion.club/event/conan"
   }
 ]
