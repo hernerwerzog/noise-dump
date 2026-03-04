@@ -24,6 +24,18 @@
     "ticketsUrl": "https://www.seetickets.com/event/dragged-into-sunlight/club-academy/3598237?_gl=1*a35g6l*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAyvHLBhDlARIsAHxl6xr2WWQgGtPQ7dyACFfMCHQdt49qK-ra7--9Lg9MtLVbU-A3pUlt4Q4aAnMmEALw_wcB"
   },
   {
+    "title": "W.I.T.C.H",
+    "subtitle": "LEEDS",
+    "date": "MAY 07, 2026",
+    "endDate": "MAY 07, 2026",
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "videoUrl": "https://www.youtube.com/embed/QQ1XQOOXu_E?si=GebsbIDO_JHO--JU",
+    "description": "Zamrock / Psych",
+    "location": "Belgrave, Leeds, UK",
+    "ticketsUrl": "https://dice.fm/event/nvkk95-witch-7th-may-belgrave-music-hall-leeds-tickets"
+  },
+  {
     "title": "EBONY PENDANT",
     "subtitle": "MANCHESTER",
     "date": "JUN 08, 2026",
@@ -42,9 +54,33 @@
     "endDate": "JUN 26, 2026",
     "startTime": "19:00",
     "endTime": "23:00",
-    "videoUrl": "https://www.youtube.com/embed/XfvsMqIRG6E?si=n2e4xphquRYkdLP1si=Q5Z67PrJ-5pEkoun",
+    "videoUrl": "https://www.youtube.com/embed/XfvsMqIRG6E?si=H90QIBFHVSzrHUqJ",
     "description": "Sludge",
     "location": "Academy, Manchester, UK",
     "ticketsUrl": "https://www.ticketmaster.co.uk/acid-bath-manchester-25-06-2026/event/1F00635BE10F85B6"
+  },
+  {
+    "title": "SUNN O)))",
+    "subtitle": "LEEDS",
+    "date": "JUL 01, 2026",
+    "endDate": "JUL 01, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/7c6uMbP4--E?si=erdNv3z1wqdFQ5oa",
+    "description": "Drone",
+    "location": "Project House, Leeds, UK",
+    "ticketsUrl": "https://brudenellpresents.seetickets.com/event/sunn-o-/project-house/3607794"
+  },
+  {
+    "title": "PIGS X7",
+    "subtitle": "SHIPLEY",
+    "date": "AUG 01, 2026",
+    "endDate": "AUG 01, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/VG9Y14yOc-4?si=dA9cd6N2lsAQvnTX",
+    "description": "Stoner/Noise/Psych",
+    "location": "Kirkgate Community Centre, Shipley, UK",
+    "ticketsUrl": "https://dice.fm/event/k69l7l-pigs-pigs-pigs-pigs-pigs-pigs-pigs-1st-aug-kirkgate-community-centre-shipley-tickets"
   }
 ]
