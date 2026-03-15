@@ -21,7 +21,7 @@
     "videoUrl": "https://www.youtube.com/embed/yedkKccl2wc?si=2XnRbW88fQL8IPwf",
     "description": "Blackened Death",
     "location": "Club Academy, Manchester, UK",
-    "ticketsUrl": "https://www.seetickets.com/event/dragged-into-sunlight/club-academy/3598237?_gl=1*a35g6l*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAyvHLBhDlARIsAHxl6xr2WWQgGtPQ7dyACFfMCHQdt49qK-ra7--9Lg9MtLVbU-A3pUlt4Q4aAnMmEALw_wcB"
+    "ticketsUrl": "https://www.fatsoma.com/e/45aaouel/dragged-into-sunlight"
   },
   {
     "title": "W.I.T.C.H",
@@ -82,5 +82,17 @@
     "description": "Stoner/Noise/Psych",
     "location": "Kirkgate Community Centre, Shipley, UK",
     "ticketsUrl": "https://dice.fm/event/k69l7l-pigs-pigs-pigs-pigs-pigs-pigs-pigs-1st-aug-kirkgate-community-centre-shipley-tickets"
+  },
+  {
+    "title": "SPECTRAL WOUND",
+    "subtitle": "MANCHESTER",
+    "date": "AUG 07, 2026",
+    "endDate": "AUG 07, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/XjBTJ5aC4mU?si=zlj1LOwTOlJ2XhmJ",
+    "description": "Black Metal",
+    "location": "Gorilla, Manchester, UK",
+    "ticketsUrl": "https://www.fatsoma.com/e/p0yw51la/spectral-wound"
   }
 ]
