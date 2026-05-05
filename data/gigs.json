@@ -24,6 +24,18 @@
     "ticketsUrl": "https://www.forbiddenkeep.co.uk/products/ebony-pendant-presale-tickets"
   },
   {
+    "title": "FAETOOTH",
+    "subtitle": "LEEDS",
+    "date": "JUN 18, 2026",
+    "endDate": "JUN 18, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/nytv1O2yvG8?si=LLBUmbauHQAIiYD8",
+    "description": "Doom",
+    "location": "Brudenell, Leeds, UK",
+    "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/faetooth/brudenell-social-club/3636137"
+  },
+  {
     "title": "ACID BATH",
     "subtitle": "MANCHESTER",
     "date": "JUN 26, 2026",
@@ -80,7 +92,19 @@
     "endTime": "23:00",
     "videoUrl": "https://www.youtube.com/embed/2lUC8Gimxz8?si=tt3s7EFmUClXF3AB",
     "description": "Math Rock",
-    "location": "Project House, Leeds, UK",
+    "location": "O2 Academy, Leeds, UK",
     "ticketsUrl": "https://brudenellpresents.seetickets.com/event/angine-de-poitrine/project-house/3621272"
+  },
+  {
+    "title": "UNCLE ACID AND THE DEADBEATS",
+    "subtitle": "LEEDS",
+    "date": "NOV 22, 2026",
+    "endDate": "NOV 22, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/kSpsffboOAc?si=ghZzstriosJcHA19",
+    "description": "Psych Rock",
+    "location": "Brudenell, Leeds, UK",
+    "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/uncle-acid-and-the-deadbeats/brudenell-social-club/3634894"
   }
 ]
