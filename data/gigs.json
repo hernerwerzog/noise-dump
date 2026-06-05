@@ -60,6 +60,18 @@
     "ticketsUrl": "https://www.forbiddenkeep.co.uk/products/nachtlich-presale-tickets-1"
   },
   {
+    "title": "TRUCK VIOLENCE",
+    "subtitle": "LEEDS",
+    "date": "JUL 08, 2026",
+    "endDate": "JUL 08, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/IBotnvWeXNs?si=hWRXnjkH1QwHjuwY",
+    "description": "Noise / Sludge",
+    "location": "Wharf Chambers, Leeds, UK",
+    "ticketsUrl": "https://www.seetickets.com/event/truck-violence-stress-positions/wharf-chambers/3609738"
+  },
+  {
     "title": "PIGS X7",
     "subtitle": "SHIPLEY",
     "date": "AUG 01, 2026",
@@ -84,6 +96,18 @@
     "ticketsUrl": "https://www.fatsoma.com/e/p0yw51la/spectral-wound"
   },
   {
+    "title": "ELECTRIC WIZARD",
+    "subtitle": "MANCHESTER",
+    "date": "SEP 17, 2026",
+    "endDate": "SEP 17, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/iqlJ4KbkT6c?si=Wu1ZEaqMW7Joq6L7",
+    "description": "Doom / Stoner",
+    "location": "Albert Hall, Manchester, UK",
+    "ticketsUrl": "https://www.seetickets.com/event/electric-wizard/albert-hall/3644621"
+  },
+  {
     "title": "ANGINE DE POITRINE",
     "subtitle": "LEEDS",
     "date": "OCT 18, 2026",
@@ -94,6 +118,18 @@
     "description": "Math Rock",
     "location": "O2 Academy, Leeds, UK",
     "ticketsUrl": "https://brudenellpresents.seetickets.com/event/angine-de-poitrine/project-house/3621272"
+  },
+  {
+    "title": "DAMNATION FESTIVAL",
+    "subtitle": "MANCHESTER",
+    "date": "NOV 07, 2026",
+    "endDate": "NOV 08, 2026",
+    "startTime": "12:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/dBtEsunbxz4?si=TQ3brWaAqqhXKftF",
+    "description": "Final Dose / Machukha / Worm / Ultha",
+    "location": "BEC Arena, Manchester, UK",
+    "ticketsUrl": "https://www.damnationfestival.co.uk/"
   },
   {
     "title": "UNCLE ACID AND THE DEADBEATS",
