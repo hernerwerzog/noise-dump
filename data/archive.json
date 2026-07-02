@@ -346,5 +346,17 @@
     "description": "Sludge",
     "location": "Academy, Manchester, UK",
     "ticketsUrl": "https://www.ticketmaster.co.uk/acid-bath-manchester-25-06-2026/event/1F00635BE10F85B6"
+  },
+  {
+    "title": "SUNN O)))",
+    "subtitle": "LEEDS",
+    "date": "JUL 01, 2026",
+    "endDate": "JUL 01, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/7c6uMbP4--E?si=erdNv3z1wqdFQ5oa",
+    "description": "Drone",
+    "location": "Project House, Leeds, UK",
+    "ticketsUrl": "https://brudenellpresents.seetickets.com/event/sunn-o-/project-house/3607794"
   }
 ]
