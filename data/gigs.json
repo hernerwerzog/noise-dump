@@ -96,6 +96,18 @@
     "ticketsUrl": "https://www.damnationfestival.co.uk/"
   },
   {
+    "title": "CONVERGE / SANGUISUGABOGG / BLACKBRAID / PUPIL SLICER",
+    "subtitle": "LEEDS",
+    "date": "NOV 18, 2026",
+    "endDate": "NOV 18, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/qxelfxGa2oo?si=zx5ToPuPQNoNkrcP",
+    "description": "Metalcore / Death / Black / Mathcore",
+    "location": "Project House, Leeds, UK",
+    "ticketsUrl": "https://www.seetickets.com/event/converge/project-house/3677391"
+  },
+  {
     "title": "UNCLE ACID AND THE DEADBEATS",
     "subtitle": "LEEDS",
     "date": "NOV 22, 2026",
@@ -130,6 +142,18 @@
     "description": "Rock / Electro Punk",
     "location": "Project House, Leeds, UK",
     "ticketsUrl": "https://dice.fm/event/3oa8e8-getdown-services-30th-nov-project-house-leeds-tickets?lng=en"
+  },
+  {
+    "title": "WARNING",
+    "subtitle": "MANCHESTER",
+    "date": "DEC 08, 2026",
+    "endDate": "DEC 08, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/x49aT-WREO0?si=4H1jzRWkxlCOUfPT",
+    "description": "Doom",
+    "location": "Rebellion, Manchester, UK",
+    "ticketsUrl": "https://www.rebellion.club/event/warning/"
   },
   {
     "title": "ELDER",
