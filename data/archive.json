@@ -394,5 +394,17 @@
     "description": "Death Metal",
     "location": "BOOM, Leeds, UK",
     "ticketsUrl": "https://www.seetickets.com/event/fulci/boom/3661885"
+  },
+  {
+    "title": "PIGS X7",
+    "subtitle": "SHIPLEY",
+    "date": "AUG 01, 2026",
+    "endDate": "AUG 01, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/VG9Y14yOc-4?si=dA9cd6N2lsAQvnTX",
+    "description": "Stoner/Noise/Psych",
+    "location": "Kirkgate Community Centre, Shipley, UK",
+    "ticketsUrl": "https://dice.fm/event/k69l7l-pigs-pigs-pigs-pigs-pigs-pigs-pigs-1st-aug-kirkgate-community-centre-shipley-tickets"
   }
 ]
