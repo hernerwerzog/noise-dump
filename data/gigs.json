@@ -24,6 +24,18 @@
     "ticketsUrl": "https://www.eventbrite.co.uk/e/tbc22-kulk-ian-tickets-1990473470733"
   },
   {
+    "title": "NAILS",
+    "subtitle": "MANCHESTER",
+    "date": "OCT 05, 2026",
+    "endDate": "OCT 05, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/iKdbz5HJAUI?si=zAe0DP85KcMNfuPL",
+    "description": "Powerviolence/Hardcore/Death",
+    "location": "Rebellion, Manchester, UK",
+    "ticketsUrl": "https://www.rebellion.club/event/nails/"
+  },
+  {
     "title": "ANGINE DE POITRINE",
     "subtitle": "LEEDS",
     "date": "OCT 18, 2026",
@@ -58,6 +70,18 @@
     "description": "Metalcore / Death / Black / Mathcore",
     "location": "Project House, Leeds, UK",
     "ticketsUrl": "https://www.seetickets.com/event/converge/project-house/3677391"
+  },
+  {
+    "title": "PORTRAYAL OF GUILT",
+    "subtitle": "MANCHESTER",
+    "date": "NOV 20, 2026",
+    "endDate": "NOV 20, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/LJlMKPCWKs0?si=h8IsD0fFSGBbgc5D",
+    "description": "Noise/Black Metal",
+    "location": "Club Academy, Manchester, UK",
+    "ticketsUrl": "https://dice.fm/event/7dxvlv-portrayal-of-guilt-spike-hellis-20th-nov-manchester-club-academy-manchester-tickets?lng=en"
   },
   {
     "title": "UNCLE ACID AND THE DEADBEATS",
