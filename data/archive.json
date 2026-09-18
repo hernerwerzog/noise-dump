@@ -430,5 +430,17 @@
     "description": "Death Metal",
     "location": "Key Club, Leeds, UK",
     "ticketsUrl": "https://www.seetickets.com/event/200-stab-wounds/the-key-club/3633271"
+  },
+  {
+    "title": "ELECTRIC WIZARD",
+    "subtitle": "MANCHESTER",
+    "date": "SEP 17, 2026",
+    "endDate": "SEP 17, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/iqlJ4KbkT6c?si=Wu1ZEaqMW7Joq6L7",
+    "description": "Doom / Stoner",
+    "location": "Albert Hall, Manchester, UK",
+    "ticketsUrl": "https://www.seetickets.com/event/electric-wizard/albert-hall/3644621"
   }
 ]
