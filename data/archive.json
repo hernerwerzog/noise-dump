@@ -192,18 +192,6 @@
     "ticketsUrl": "https://www.seetickets.com/event/all-them-witches/leeds-beckett-students-union/3388356"
   },
   {
-    "title": "MEPHISTOFELES",
-    "subtitle": "MANCHESTER",
-    "date": "NOV 06, 2025",
-    "endDate": "NOV 06, 2025",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "videoUrl": "https://www.youtube.com/embed/jzooUlBQ6-o?si=sC1I0apNKLXfaa_F",
-    "description": "Stoner/Doom/Electric Wizard Worship",
-    "location": "Star and Garter, Manchester, UK",
-    "ticketsUrl": "https://www.skiddle.com/whats-on/Manchester/The-Star-And-Garter-Manchester/Mephistofeles--Mind-Burial--The-Star-and-Garter/41230240"
-  },
-  {
     "title": "DAMNATION FESTIVAL",
     "subtitle": "MANCHESTER",
     "date": "NOV 08, 2025",
@@ -408,18 +396,6 @@
     "ticketsUrl": "https://dice.fm/event/k69l7l-pigs-pigs-pigs-pigs-pigs-pigs-pigs-1st-aug-kirkgate-community-centre-shipley-tickets"
   },
   {
-    "title": "SPECTRAL WOUND",
-    "subtitle": "MANCHESTER",
-    "date": "AUG 06, 2026",
-    "endDate": "AUG 06, 2026",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "videoUrl": "https://www.youtube.com/embed/XjBTJ5aC4mU?si=zlj1LOwTOlJ2XhmJ",
-    "description": "Black Metal",
-    "location": "Gorilla, Manchester, UK",
-    "ticketsUrl": "https://www.fatsoma.com/e/p0yw51la/spectral-wound"
-  },
-  {
     "title": "200 STAB WOUNDS",
     "subtitle": "LEEDS",
     "date": "AUG 10, 2026",
@@ -442,17 +418,5 @@
     "description": "Doom / Stoner",
     "location": "Albert Hall, Manchester, UK",
     "ticketsUrl": "https://www.seetickets.com/event/electric-wizard/albert-hall/3644621"
-  },
-  {
-    "title": "KULK",
-    "subtitle": "GLOSSOP",
-    "date": "SEP 24, 2026",
-    "endDate": "SEP 24, 2026",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "videoUrl": "https://www.youtube.com/embed/fUM9G-_4jUI?si=M8XPzqPSphN4JAx0",
-    "description": "Doom / Sludge / Noise",
-    "location": "The Globe, Glossop, UK",
-    "ticketsUrl": "https://www.eventbrite.co.uk/e/tbc22-kulk-ian-tickets-1990473470733"
   }
 ]
