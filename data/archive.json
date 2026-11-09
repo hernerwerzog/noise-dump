@@ -418,5 +418,17 @@
     "description": "Doom / Stoner",
     "location": "Albert Hall, Manchester, UK",
     "ticketsUrl": "https://www.seetickets.com/event/electric-wizard/albert-hall/3644621"
+  },
+  {
+    "title": "DAMNATION FESTIVAL",
+    "subtitle": "MANCHESTER",
+    "date": "NOV 07, 2026",
+    "endDate": "NOV 08, 2026",
+    "startTime": "12:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/dBtEsunbxz4?si=TQ3brWaAqqhXKftF",
+    "description": "Final Dose / Machukha / Worm / Ultha",
+    "location": "BEC Arena, Manchester, UK",
+    "ticketsUrl": "https://www.damnationfestival.co.uk/"
   }
 ]
