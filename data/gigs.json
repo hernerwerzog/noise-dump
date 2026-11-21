@@ -48,6 +48,18 @@
     "ticketsUrl": "https://www.rebellion.club/event/warning/"
   },
   {
+    "title": "SHOW ME THE BODY",
+    "subtitle": "LEEDS",
+    "date": "FEB 14, 2026",
+    "endDate": "FEB 14, 2026",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/ueOAsIJu5YQ?is=ywU0hLFcvIGWfh8u",
+    "description": "NOISE / POST HARDCORE / PUNK",
+    "location": "Project House, Leeds, UK",
+    "ticketsUrl": "https://www.seetickets.com/event/show-me-the-body/project-house/3743459"
+  },
+  {
     "title": "ELDER",
     "subtitle": "LEEDS",
     "date": "FEB 24, 2027",
@@ -58,6 +70,18 @@
     "description": "Psych Rock",
     "location": "Brudenell, Leeds, UK",
     "ticketsUrl": "https://brudenellsocialclub.seetickets.com/event/elder/brudenell-social-club/3661450"
+  },
+  {
+    "title": "FLICKERS FROM THE FEN / SEGADEATH",
+    "subtitle": "LEEDS",
+    "date": "FEB 28, 2027",
+    "endDate": "FEB 28, 2027",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "videoUrl": "https://www.youtube.com/embed/iRKXiqGqro8?is=wSkjdzNn49I40q45",
+    "description": "Dungeon Synth",
+    "location": "Wharf Chambers, Leeds, UK",
+    "ticketsUrl": "https://wegottickets.com/f/31530"
   },
   {
     "title": "PEELINGFLESH",
